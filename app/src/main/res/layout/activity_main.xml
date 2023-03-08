@@ -27,8 +27,8 @@
             android:orientation="vertical">
 
             <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
                 <TableRow
                     android:layout_width="@dimen/button_width"
@@ -114,7 +114,7 @@
             <Button
                 android:id="@+id/button24"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="@dimen/button_width"
                 android:text="0" />
 
         </LinearLayout>
